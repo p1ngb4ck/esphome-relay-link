@@ -57,3 +57,12 @@ core of the build host stays as installed.
 ## Thanks
 
 Everyone this project builds on: [ATTRIBUTIONS.md](https://github.com/p1ngb4ck/esphome/blob/dev/ATTRIBUTIONS.md).
+
+## Branch structure
+
+Each `pr/` branch holds one part of this topic on top of upstream and says in its `BRANCH.md` what it is based on. `main` holds all of them.
+
+| Branch | Based on |
+|---|---|
+| `pr/fixed-containers` | upstream only |
+| `pr/relay-link` | `pr/fixed-containers` |
